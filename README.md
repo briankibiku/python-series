@@ -5,3 +5,7 @@
 
 Interpretation is necessary due to different underlying CPU architectures on different machines hence the need for **Python Virtual Machine** to convert the ByteCode into target machine code.
 
+### Topics
+
+1. Python at a glance (Data types, arithmetic ops )
+2. Control Flows
