@@ -1,4 +1,4 @@
-print{"""
+print("""
 # CONTROL FLOW
 # IF statement
 x=2
@@ -58,8 +58,14 @@ def initlog(*args):
 # MATCH statement only first pattern that matches gets executed/ similar to SWITCH
 def http_error(status):
     match status:
-        case 400:
+        case 400 || 404: (combine several literals)
             return "Bad request"
         case _:
             return "Something's wrong with the internet"
-"""}
+
+# FUNCTIONS
+def sayHello(name):
+    # this is a docstring (documentation) of the function
+    it\’s good practice to include docstrings in code that you write,
+    print('Hello', name)
+""")
