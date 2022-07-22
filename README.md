@@ -9,4 +9,4 @@ Interpretation is necessary due to different underlying CPU architectures on dif
 
 1. Python at a glance (Data types, arithmetic ops )
 2. Control Flows (if else, while, continue, break, pass, do while)
-3. Data Structures (more on lists, )
+3. Data Structures (more on lists, sets, tuples, dictionaries)
