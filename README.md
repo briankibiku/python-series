@@ -10,6 +10,6 @@ CPython is the reference implementation of the Python programming language. Writ
 ### Topics
 
 1. [Python at a glance](https://github.com/briankibiku/python-series/blob/main/1python-ata-glance/index.py) (Data types, arithmetic ops )
-2. Control Flows (if else, while, continue, break, pass, do while)
-3. Data Structures (more on lists, sets, tuples, dictionaries)
-4. Modules
+2. [Control Flows](https://github.com/briankibiku/python-series/blob/main/2control-flow/index.py) (if else, while, continue, break, pass, do while)
+3. [Data Structures](https://github.com/briankibiku/python-series/blob/main/3data-structures/index.py) (more on lists, sets, tuples, dictionaries)
+4. [Modules](https://github.com/briankibiku/python-series/blob/main/4modules/index.py)
