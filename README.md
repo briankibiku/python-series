@@ -5,6 +5,8 @@
 
 Interpretation is necessary due to different underlying CPU architectures on different machines hence the need for **Python Virtual Machine** to convert the ByteCode into target machine code.
 
+CPython is the reference implementation of the Python programming language. Written in C and Python, CPython is the default and most widely used implementation of the Python language. CPython can be defined as both an interpreter and a compiler as it compiles Python code into bytecode before interpreting it.
+
 ### Topics
 
 1. Python at a glance (Data types, arithmetic ops )
