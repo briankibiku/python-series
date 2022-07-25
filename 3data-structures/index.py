@@ -64,5 +64,34 @@ compresion = [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
 print(compresion)
 
 Common applications are to make new lists where each element is the result of some operations
+
+# DEL STATEMENT #retrun value of NONE
+# remove an item from a list given its index instead of its value
+a = [1,2,3,4,5,6,7,8]
+del a[2:4]
+print(a)
+
+# TUPLES AND SEQUENCES # Tuples are immutable, 
+t = 12345, 54321, 'hello!'
+t[0]
+print(t)
+# sequence unpacking requires that there are as many variables on the left side of the equals sign as there are elements in the tuple.
+x, y, z = t
+# a tuple with one item is constructed by following a value with a comma
+singleton = 'hello',
+
+# SETS denoted by Curly braces or the set() 
+# An unordered collection with no duplicate elements
+basket = {'apple', 'orange', 'apple'}
+# set comprehensions are also supported:
+a = {x for x in 'abracadabra' if x not in 'abc'}
+
+# DICTIONARIES # set of key: value pairs indexed by unique keys,
+# tuples can be used as keys if they contain only strings, numbers, or tuples
+# lists are mutable hence cant be used as keys
+t = {'a': '1', 'gender': 'b', 'age': 2, 'personality': 'Fake', 'userName': "King"}
+del(t['a'])
+print(list(t))
+print(sorted(t))
 """
 )

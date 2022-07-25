@@ -28,6 +28,9 @@ word = 'Python'
 word[0] -> P
 # Range at position 2 is excluded
 word[0:2]
+The strip() method removes any leading (spaces at the beginning) and trailing (spaces at the end) characters (space is the default leading character to .
+word = " Hello "
+print(word.strip())
 
 # LISTS 
 # Mutable,comma seperated usually same data type values
