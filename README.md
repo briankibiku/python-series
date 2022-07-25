@@ -12,3 +12,4 @@ CPython is the reference implementation of the Python programming language. Writ
 1. Python at a glance (Data types, arithmetic ops )
 2. Control Flows (if else, while, continue, break, pass, do while)
 3. Data Structures (more on lists, sets, tuples, dictionaries)
+4. Modules
