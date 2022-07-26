@@ -93,5 +93,38 @@ t = {'a': '1', 'gender': 'b', 'age': 2, 'personality': 'Fake', 'userName': "King
 del(t['a'])
 print(list(t))
 print(sorted(t))
+
+# Looping through dicts
+knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+for k, v in knights.items():
+    print(k, v)
+
+# When looping through a sequence, the position index and corresponding value can be retrieved at the same time using the enumerate() function.
+for i, v in enumerate(['tic', 'tac', 'toe']):
+    print(i, v)
+
+#To loop over two or more sequences at the same time, the entries can be paired with the zip() function.
+questions = ['name', 'quest', 'favorite color']
+answers = ['lancelot', 'the holy grail', 'blue']
+for q, a in zip(questions, answers):
+    print('What is your {0}?  It is {1}.'.format(q, a))
+
+# loop over a sequence in reverse,then call the reversed() function
+for i in reversed(range(1, 10, 2)): # 2 is the minus factor
+    print(i)
+
+#To loop over a sequence in sorted order, use the sorted() function which returns a new sorted list while leaving the source unaltered.
+basket = ['apple', 'orange', 'apple', 'pear', 'orange', 'banana']
+for i in sorted(basket):
+    print(i)
+
+# Using set() on a sequence eliminates duplicate elements
+for f in sorted(set(basket)):
+    print(f)
+
+# More on conditions
+The comparison operators in and not in are membership tests that determine whether a value is in (or not in) a container. 
+The operators is and is not compare whether two objects are really the same object
+chained coparison For example, a < b == c  # a is less than b and moreover b equals c.
 """
 )
