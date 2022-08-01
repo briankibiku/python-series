@@ -45,4 +45,7 @@ f.readline() reads a single line from the file
 f.close()
 
 # Saving structured data with JSON
+import json
+x = [1, 'simple', 'list']
+json.dumps(x)
 """)
