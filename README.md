@@ -13,4 +13,6 @@ CPython is the reference implementation of the Python programming language. Writ
 2. [Control Flows](https://github.com/briankibiku/python-series/blob/main/2control-flow/index.py) (if else, while, continue, break, pass, do while)
 3. [Data Structures](https://github.com/briankibiku/python-series/blob/main/3data-structures/index.py) (more on lists, sets, tuples, dictionaries)
 4. [Modules](https://github.com/briankibiku/python-series/blob/main/4modules/index.py)
-5. [Packages](https://github.com/briankibiku/python-series/blob/main/4modules/index.py)
+5. [Packages](https://github.com/briankibiku/python-series/blob/main/5packages/index.py)
+6. [Inputs & Errors](https://github.com/briankibiku/python-series/blob/main/6inputs-outputs/index.py)
+5. [Errors & Exceptions](https://github.com/briankibiku/python-series/blob/main/7errors-exceptions/index.py)
