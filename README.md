@@ -16,4 +16,4 @@ CPython is the reference implementation of the Python programming language. Writ
 5. [Packages](https://github.com/briankibiku/python-series/blob/main/5packages/index.py)
 6. [Inputs & Errors](https://github.com/briankibiku/python-series/blob/main/6inputs-outputs/index.py)
 7. [Errors & Exceptions](https://github.com/briankibiku/python-series/blob/main/7errors-exceptions/index.py)
-8. [Classes](https://github.com/briankibiku/python-series/blob/main/7classes/index.py)
+8. [Classes](https://github.com/briankibiku/python-series/blob/main/7classes/index.py) (feature, classes, inheritance, getters, setters, deleters, property,regular method, @classmethod, @staticmethod)
